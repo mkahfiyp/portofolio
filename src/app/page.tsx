@@ -13,7 +13,7 @@ export default function Home() {
   return (
     // SECTION : 1. Hero | 2. About Me | 3. Skills | 4. Portofolio | 5. Experience | 6. Testimonials | 7. Contact
     <div className="">
-      <div className="h-screen bg-[url('/assets/bg-image-1.png')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center px-[5%] md:px-[20%]">
+      <div className="h-screen bg-[url('/assets/bg-image-1.webp')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center px-[5%] md:px-[20%]">
         <h1 id="head" className="text-4xl md:text-6xl font-bold text-white mb-2">
           I’m Kahfi
         </h1>
@@ -47,7 +47,7 @@ export default function Home() {
       <div id="about" className="flex flex-col pt-[64px] items-center px-[5%] md:px-[20%]">
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section dark:text-black">About Me</h1>
         <div className="">
-          <Image src="/assets/image-1.png" alt="" />
+          <Image src="/assets/image-1.webp" alt="" />
         </div>
 
         <div className="flex flex-col items-center my-4 gap-0">
@@ -156,28 +156,28 @@ export default function Home() {
 
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <Image src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.webp" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
           </div>
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <Image src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.webp" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
           </div>
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <Image src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.webp" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
           </div>
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <Image src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.webp" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
@@ -193,7 +193,7 @@ export default function Home() {
         <div className="grid gap-4">
           <div className="w-full px-6 py-5 rounded-xl shadow-md md:grid md:grid-cols-5 dark:bg-[#1F2937]">
             <div className="">
-              <Image src="/assets/Frame2.png" alt="" className="m-auto" />
+              <Image src="/assets/Frame2.webp" alt="" className="m-auto" />
             </div>
             <div className="col-span-3 p-1">
               <h1 className="text-gray-900 text-[20px] font-semibold dark:text-white">Sr. Frontend Developer</h1>
