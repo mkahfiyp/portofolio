@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script src="https://kit.fontawesome.com/d37d630141.js" crossOrigin="anonymous" />
+        {/* <Script src="https://kit.fontawesome.com/d37d630141.js" crossOrigin="anonymous" /> */}
       </head>
       <ThemeProvider>
         <body
