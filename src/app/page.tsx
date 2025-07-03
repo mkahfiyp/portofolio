@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CgProfile } from "react-icons/cg";
 import { CiMail } from "react-icons/ci";
 import { FaGithub, FaInstagram, FaLinkedin, FaReact } from "react-icons/fa";
@@ -146,7 +147,8 @@ export default function Home() {
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
               {/* <img src="/assets/Frame1.png" alt="" className="w-full h-[100px]" /> */}
-              <img src="https://asset.ayo.co.id/image/venue/171039967951519.image_cropper_CF1FDE7D-DC1B-4E0B-87D5-85324ADDAC6D-7938-000005DDF263C401_middle.jpg" alt="" className="w-full h-[150px] rounded-t-lg" />
+              {/* <img src="https://asset.ayo.co.id/image/venue/171039967951519.image_cropper_CF1FDE7D-DC1B-4E0B-87D5-85324ADDAC6D-7938-000005DDF263C401_middle.jpg" alt="" className="w-full h-[150px] rounded-t-lg" /> */}
+              <Image src="https://asset.ayo.co.id/image/venue/171039967951519.image_cropper_CF1FDE7D-DC1B-4E0B-87D5-85324ADDAC6D-7938-000005DDF263C401_middle.jpg" alt="" className="w-full h-[150px] rounded-t-lg"/>
               <h1 className="font-bold">Front-end Development</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
