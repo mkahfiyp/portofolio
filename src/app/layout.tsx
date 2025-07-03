@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+// import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Script from "next/script";
 import ThemeProvider from "@/components/theme-provider";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: "600",
-});
+// const poppins = Poppins({
+//   variable: "--font-poppins",
+//   subsets: ["latin"],
+//   weight: "600",
+// });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

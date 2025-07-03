@@ -8,13 +8,13 @@ import { HiOutlineX } from "react-icons/hi";
 
 import { Button } from "@/components/ui/button";
 
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 import { useState, useContext } from "react";
 import { ThemeContext } from "./theme-provider";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-    const { setTheme } = useTheme()
+    // const { setTheme } = useTheme()
     // const { modeContext, setModeContext } = useContext(ThemeContext);
     const { modeContext, setModeContext } = useContext(ThemeContext)
 

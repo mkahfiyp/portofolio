@@ -20,7 +20,7 @@ export default function Home() {
           Full-Stack Web Developer
         </h2>
         <h3 className="text-base md:text-lg text-gray-300 italic max-w-xl text-center mb-[20px]">
-          "I help bring ideas to life through clean, efficient, and user-focused web development."
+          &quot;I help bring ideas to life through clean, efficient, and user-focused web development.&quot;
         </h3>
 
         <div className="flex gap-5">
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center my-4 gap-0">
-          <h2>I'm Kahfi</h2>
+          <h2>I&apos;m Kahfi</h2>
         </div>
 
         <div className="flex flex-col gap-4 md:w-full indent-8 md:indent-0">
@@ -64,7 +64,7 @@ export default function Home() {
       <div id="skill" className="flex flex-col items-center pt-[64px] px-[5%] md:px-[20%]">
 
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section dark:text-black">Skills</h1>
-        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">"These are the technologies and tools I use daily to bring ideas to life and solve real-world problems."</h2>
+        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">&quot;These are the technologies and tools I use daily to bring ideas to life and solve real-world problems.&quot;</h2>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 w-full mt-12">
           <div className="m-auto flex flex-col items-center gap-y-2">
@@ -139,7 +139,7 @@ export default function Home() {
 
       <div id="portofolio" className="flex flex-col items-center pt-[64px] px-[5%] md:px-[20%]">
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section dark:text-black">Portfolio</h1>
-        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">"Here are some of the projects I've worked on — each one taught me something new and helped me grow as a developer."</h2>
+        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">&quot;Here are some of the projects I&apos;ve worked on — each one taught me something new and helped me grow as a developer.&quot;</h2>
 
         <div className="grid md:grid-cols-3 gap-4">
 
@@ -186,7 +186,7 @@ export default function Home() {
       {/* <div id="portofolio" className="flex flex-col items-center pt-[64px] px-[5%] md:px-[20%]"> */}
       <div id="experience" className="pt-16 px-[5%] md:px-[20%] text-gray-600 dark:text-gray-300">
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section w-fit m-auto dark:text-black">Experience</h1>
-        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">"Here's a glimpse into my journey so far — the roles I've taken, the teams I've joined, and the lessons I've learned along the way."</h2>
+        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">&quot;Here&apos;s a glimpse into my journey so far — the roles I&apos;ve taken, the teams I&apos;ve joined, and the lessons I&apos;ve learned along the way.&quot;</h2>
 
         <div className="grid gap-4">
           <div className="w-full px-6 py-5 rounded-xl shadow-md md:grid md:grid-cols-5 dark:bg-[#1F2937]">
@@ -211,7 +211,7 @@ export default function Home() {
 
       <div id="testimonials" className="pt-16 px-[5%] md:px-[20%] text-gray-600 dark:text-gray-300">
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section w-fit m-auto dark:text-black">Testimonials</h1>
-        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">"I've been lucky to work with some amazing people. Here's what they've said about working with me."</h2>
+        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">&quot;I&apos;ve been lucky to work with some amazing people. Here&apos;s what they&apos;ve said about working with me.&quot;</h2>
 
         <div className="overflow-x-auto grid gap-4 md:flex md:flex-nowrap md:max-w-full p-4">
           <div className="w-full px-6 py-5 rounded-xl shadow-md flex flex-col items-center text-left gap-6 md:min-w-94 md:max-w-94 dark:bg-[#1F2937]">
@@ -264,7 +264,7 @@ export default function Home() {
 
       <div id="contact" className="pt-16 px-[5%] md:px-[20%] mb-24 text-gray-900 dark:text-gray-300">
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section w-fit m-auto dark:text-black">Contact</h1>
-        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">"Have a question, idea, or opportunity? I'd love to hear from you! Don't hesitate to drop me a message."</h2>
+        <h2 className="mb-8 italic text-center text-gray-600 dark:text-gray-300 text-[20px]">&quot;Have a question, idea, or opportunity? I&apos;d love to hear from you! Don&apos;t hesitate to drop me a message.&quot;</h2>
 
         <div className="flex flex-col items-center justify-center gap-y-5">
           <div className="flex flex-col md:flex-row gap-5">
