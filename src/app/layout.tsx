@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Script from "next/script";
+import ThemeProvider from "@/components/theme-provider";
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: "600",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,12 +32,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script src="https://kit.fontawesome.com/d37d630141.js" crossOrigin="anonymous" />
+      </head>
+      <ThemeProvider>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          {/* <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        > */}
+          <Navbar />
+
+          {children}
+          {/* </ThemeProvider> */}
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
