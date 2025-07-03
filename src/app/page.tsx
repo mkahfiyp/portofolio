@@ -47,7 +47,7 @@ export default function Home() {
       <div id="about" className="flex flex-col pt-[64px] items-center px-[5%] md:px-[20%]">
         <h1 className="rounded-full px-5 py-2 mb-4 judul-section dark:text-black">About Me</h1>
         <div className="">
-          <img src="/assets/image-1.png" alt="" />
+          <Image src="/assets/image-1.png" alt="" />
         </div>
 
         <div className="flex flex-col items-center my-4 gap-0">
@@ -156,28 +156,28 @@ export default function Home() {
 
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <img src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.png" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
           </div>
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <img src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.png" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
           </div>
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <img src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.png" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
           </div>
           <div className="w-full px-[24px] py-[21px] rounded-xl shadow-md dark:bg-[#1F2937]">
             <div className="skill-card-heading">
-              <img src="/assets/Frame2.png" alt="" />
+              <Image src="/assets/Frame2.png" alt="" />
               <h1>UI/UX Designer</h1>
             </div>
             <p>Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
@@ -193,7 +193,7 @@ export default function Home() {
         <div className="grid gap-4">
           <div className="w-full px-6 py-5 rounded-xl shadow-md md:grid md:grid-cols-5 dark:bg-[#1F2937]">
             <div className="">
-              <img src="/assets/Frame2.png" alt="" className="m-auto" />
+              <Image src="/assets/Frame2.png" alt="" className="m-auto" />
             </div>
             <div className="col-span-3 p-1">
               <h1 className="text-gray-900 text-[20px] font-semibold dark:text-white">Sr. Frontend Developer</h1>
